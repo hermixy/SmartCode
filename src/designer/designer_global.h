@@ -1,0 +1,12 @@
+#ifndef DESIGNER_GLOBAL_H
+#define DESIGNER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(DESIGNER_LIBRARY)
+#  define DESIGNERSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define DESIGNERSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // DESIGNER_GLOBAL_H
