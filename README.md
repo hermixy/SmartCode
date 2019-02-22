@@ -1,4 +1,4 @@
-SmartCode is an educational purpos IDE written in C++,based on the Qt framework,it can be ported to many platforms,it’s composed of a text editor based on the qscintilla project and use gcc Compiler to compiler C++ files,the current project manager use XML for saving and loading project.
+SmartCode is an educational purpos IDE written in C++,based on the Qt framework,it can be ported to many platforms,it’s composed of a text editor based on the qscintilla project and use gcc Compiler to compiler C++ files,the current project manager use XML for saving and loading projects.
 
 Required Configuration to build :
 
